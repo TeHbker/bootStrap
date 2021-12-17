@@ -1,0 +1,72 @@
+
+/* XX-Large devices (larger desktops, 1378px and up) */
+/* Використання media query breakpoints */
+@media (min-width: 1378px) {
+  /* Коригування параметрів фреймворку Bootstrap */
+  .container, .container-sm {
+    max-width: 10000px;
+  }
+
+/* Властивості блоку контенту */
+  .content{
+    height: 485px;
+    width: auto;
+    margin: 15px;
+    padding-top: 2%;
+  }
+
+/* Декоративні деталі */
+
+  h3{
+    color: #fff;
+  }
+
+  hr:not([size]) {
+      height: 1px;
+      width: 83%;
+  }
+
+  /* Карусель та текст */
+  #text-and-carousel{
+    margin: auto;
+    width: 40%;
+  }
+  .text-and-carousel{
+    margin-top: 1%;
+  }
+  #carouselIndicators{
+    margin: 5px;
+    width: 50%;
+  }
+  .text-around-carousel{
+    margin: 0;
+    height: auto;
+    width: 35%;
+    margin-top: 2%;
+    color: #fff;
+  }
+
+  .card{
+    width: 12rem;
+    height: auto;
+    background-color: #fec722;
+    margin-top: 25%;
+  }
+  .second_card{
+    margin-left: 0;
+  }
+  .card .btn{
+    background: #441b5f7d;
+    border: 0;
+  }
+  .div-card{
+    width: auto;
+    position: fixed;
+    margin-left: 82%;
+  }
+
+  .footer{
+    margin-top: 15%;
+    width: 100%;
+  }
+}

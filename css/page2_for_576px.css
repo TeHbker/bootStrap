@@ -1,0 +1,52 @@
+
+/* Small devices (landscape phones, 576px and up) */
+/* Використання media query breakpoints */
+@media (min-width: 576px) {
+  /* Коригування параметрів фреймворку Bootstrap */
+
+  .navbar-nav .nav-link {
+    padding-right: 0px;
+    padding-left: 20px;
+  }
+
+/* Декоративні елементи */
+
+.content h3{
+  color: #fff;
+  margin: auto;
+  margin-top: 2%;
+  width: 95%;
+}
+
+/* Карусель та текст */
+  .text-around-carousel{
+    width: 90%;
+    margin: auto;
+    margin-top: 3%;
+    color: #fff;
+  }
+  #carouselIndicators{
+    margin: auto;
+    margin-top: 10px;
+    width: 95%;
+  }
+  /* Картки та текст */
+  .div-card{
+    margin: auto;
+    margin-top: 5%;
+    width: 85%;
+  }
+
+  .card{
+    width: 14rem;
+    background-color: #dddece;
+    float: left;
+  }
+  .second_card{
+    margin-left: 5%;
+  }
+  .card .btn{
+    background: #441b5f7d;
+  }
+
+}

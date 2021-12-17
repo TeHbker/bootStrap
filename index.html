@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/index_global.css">
+    <link rel="stylesheet" href="css/index_576px.css">
+    <link rel="stylesheet" href="css/index_1400px.css">
+
+    <title>Site</title>
+  </head>
+  <body>
+    <!-- Верхня навігаційна панель -->
+    <nav style="background-color: #483D8B; border-radius: 5px;" class="navbar navbar-light nav-top-bar">
+      <!-- Назва та логотип сайту -->
+        <a style="margin-left: 20px" class="navbar-brand" href="index.html">Using bootstrap<img class="logo-image" src="icon.jpg" alt="Icon"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Кнопки переміщення по сайту -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="page2.html"> Сторінка2</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Купити книжки можна тут</a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+
+  <div class="content"> <!-- Контейнер контенту -->
+
+    <div id="text-and-carousel" class="row text-and-carousel"> <!-- Контейнер слайд-шоу та тексту -->
+      <div style="" id="carouselIndicators" class="carousel slide carousel-fade col-sm-6" data-ride="carousel">
+
+        <div class="carousel-inner">
+          <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+
+            <div class="carousel-item active">
+              <img class="d-block w-100" src="1.jpg" alt="First slide">
+            </div>
+
+            <div class="carousel-item">
+              <img class="d-block w-100" src="2.jpg" alt="Second slide">
+            </div>
+
+            <div class="carousel-item">
+              <img class="d-block w-100" src="3.jpg" alt="Third slide">
+            </div>
+        </div>
+
+        <a class="carousel-control-prev" href="#carouselIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only"></span>
+        </a>
+
+        <a class="carousel-control-next" href="#carouselIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only"></span>
+        </a>
+      </div>
+      <!-- Текст біля слайдеру -->
+      <div style="" class="text-around-carousel">
+        <p>
+          Найкращий подарунок на новорічні свята - це, безперечно, книга, тому на цьому сайті
+          який був створений для дослідження bootstrap ви зможете переглянути рекомендовані мною книги,
+          що я прочитав та яких письменників хотів би порадити. Отже, за картками що вказані
+          знизу, можна перейти на сайт Вікіпедіїї та дізнатися чиї твори варто прочитати
+
+        </p>
+      </div>
+    </div>
+
+    <div class="row container div-card">
+
+      <div class="card">
+        <img class="card-img-top card-image" src="5.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Агата Крісті</h5>
+          <p class="card-text">Та її знамениті на весь світ детективи та захопливі злочини</p>
+          <a href="https://uk.wikipedia.org/wiki/%D0%90%D0%B3%D0%B0%D1%82%D0%B0_%D0%9A%D1%80%D1%96%D1%81%D1%82%D1%96" class="btn">Перейти до біографії</a>
+        </div>
+      </div>
+
+        <div class="card">
+          <img class="card-img-top card-image" src="5.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Говард Лавкрафт</h5>
+            <p class="card-text">Чи відчували ви себе самотньо?
+              Його жахи позбавлять цього</p>
+            <a href="https://uk.wikipedia.org/wiki/%D0%93%D0%BE%D0%B2%D0%B0%D1%80%D0%B4_%D0%9B%D0%B0%D0%B2%D0%BA%D1%80%D0%B0%D1%84%D1%82" class="btn">Перейти до біографії</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <img class="card-img-top card-image" src="5.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Анджей Сапковський</h5>
+            <p class="card-text">Та пригоди славного Відьмака Геральта </p>
+            <a href="https://uk.wikipedia.org/wiki/%D0%90%D0%BD%D0%B4%D0%B6%D0%B5%D0%B9_%D0%A1%D0%B0%D0%BF%D0%BA%D0%BE%D0%B2%D1%81%D1%8C%D0%BA%D0%B8%D0%B9" class="btn">Перейти до біографії</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <img class="card-img-top card-image" src="5.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Брати Стругацькі</h5>
+            <p class="card-text">Що станеться коли все
+              ж виявиться що ми не одні у всесвіті?</p>
+            <a href="https://uk.wikipedia.org/wiki/%D0%91%D1%80%D0%B0%D1%82%D0%B8_%D0%A1%D1%82%D1%80%D1%83%D0%B3%D0%B0%D1%86%D1%8C%D0%BA%D1%96" class="btn">Перейти до біографії</a>
+          </div>
+        </div>
+
+    </div>
+
+      <div class="text-around-card container-xxl">
+        <p>
+          Взагалі, серед всіх вищезазначених авторів, я б волів порекомендувати
+          саме такі книжки: "Відьмак" вся трилогія Анджея Сапковського, "10 негритят"
+          Агати Крісті, "Пікнік на узбіччі" братів Стругацьких та "Натура для Пікмана" Г.Ф.Лавкрафта.
+          Серед тих, що я хотів би ще зазначити це "The Phantom of the opera" Гастона Леру, для тих,
+          хто полюбляє романтику, "Метро 2033" вся трилогія та інші книжки з цього циклу від Дмитра глуховського.
+          На даний момент це все, читайте гарні твори. Дякую за увагу
+
+        </p>
+      </div>
+
+    </div>
+
+
+  <!-- Кінець контейнеру контенту -->
+
+    <!-- Нижня навігаційна панель  -->
+    <nav style="" class="navbar bottom navbar-dark bg-dark footer">
+      <p class="bottom-text">Copiright and Co.</p>
+    </nav>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+  </body>
+</html>
